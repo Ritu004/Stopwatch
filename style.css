@@ -1,0 +1,60 @@
+body{
+  background:url(img/bg.jpg) center center fixed;
+  background-size: cover;
+  color: white;
+}
+#header
+{
+  text-align: center;
+  font-size: 7vw
+}
+#lap{
+  text-align: right;
+  font-size: 4vw;
+}
+#time{
+  text-align: center;
+  font-size: 10vw;
+}
+
+#controlscontainer{
+  margin-bottom: 100px;
+  
+}
+.control{
+  color: white;
+  background-color:rgba(100,15,255,.5);
+  height:10vw;
+  width: 10vw;
+  border-radius: 100%;
+  text-align:center;
+  padding: 23% 0;
+/*  padding-right: 20px;*/
+  font-size: 2.5vw;
+  cursor: pointer;
+  
+    
+}
+.control:active{
+  background-color: rgba(100,15,255);
+}
+#laps{
+    max-height: 270px;
+    overflow-y: scroll;
+  
+  
+}
+.lapss{
+  height: 50px;
+  border-bottom: 1px solid white;
+  margin: 15px;
+}
+.laptitle{
+  font-size: 1.5em;
+  float: left;
+}
+.lapcontent{
+  font-size: 1.5em;
+  float: right;
+  font-weight: bold;
+}
